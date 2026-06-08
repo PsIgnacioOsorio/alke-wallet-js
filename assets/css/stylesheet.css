@@ -1,0 +1,111 @@
+.bodyLogin {
+    background-color: #f4f6f9;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card {
+    max-width: 450px;
+    width: 100%;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+.bodyIndex {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0d6efd, #0a58ca);
+    display: flex;
+    align-items: center;
+}
+
+.hero-card {
+    border: none;
+    border-radius: 20px;
+}
+
+.wallet-icon {
+    font-size: 5rem;
+    color: #0d6efd;
+}
+
+.feature-icon {
+    font-size: 2rem;
+}
+
+.bodyDeposit {
+    background-color: #f4f6f9;
+}
+
+.deposit-card {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 20px;
+}
+
+.money-icon {
+    font-size: 4rem;
+    color: #198754;
+}
+
+.bodyMenu {
+    background-color: #f4f6f9;
+}
+
+.balance-card {
+    background: linear-gradient(135deg, #0d6efd, #0a58ca);
+    color: white;
+    border-radius: 20px;
+}
+
+.menu-card {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.menu-card:hover {
+    transform: translateY(-5px);
+}
+
+.icon-size {
+    font-size: 3rem;
+}
+
+.bodySendmoney {
+    background-color: #f4f6f9;
+}
+
+.transfer-card {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.bodyTransactions {
+    background-color: #f4f6f9;
+}
+
+.movements-card {
+    max-width: 900px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.positive {
+    color: #198754;
+    font-weight: bold;
+}
+
+.negative {
+    color: #dc3545;
+    font-weight: bold;
+}
